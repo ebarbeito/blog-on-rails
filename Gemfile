@@ -32,6 +32,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Generate the Rails Guides locally with the doc:guides
+gem 'redcarpet', '~> 2.1.1'
+gem 'nokogiri'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
